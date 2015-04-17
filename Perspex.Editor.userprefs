@@ -3,16 +3,24 @@
     <String>Prototype\Prototype.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|WithNRefactory" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Perspex.Editor\Editing\SelectionSegment.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Perspex.Editor\TextEditor.cs">
     <Files>
-      <File FileName="Perspex.Editor\CodeCompletion\ICompletionData.cs" Line="30" Column="30" />
-      <File FileName="Perspex.Editor\Editing\SelectionSegment.cs" Line="39" Column="39" />
+      <File FileName="Perspex.Editor\CodeCompletion\ICompletionData.cs" Line="1" Column="1" />
+      <File FileName="Perspex.Editor\Editing\SelectionSegment.cs" Line="35" Column="35" />
       <File FileName="Perspex.Editor\Editing\IReadOnlySectionProvider.cs" Line="1" Column="1" />
-      <File FileName="Perspex.Editor\Folding\NewFolding.cs" Line="33" Column="33" />
-      <File FileName="Perspex.Editor\Highlighting\IHighlighter.cs" Line="34" Column="34" />
+      <File FileName="Perspex.Editor\Folding\NewFolding.cs" Line="1" Column="1" />
+      <File FileName="Perspex.Editor\Highlighting\IHighlighter.cs" Line="1" Column="1" />
       <File FileName="Perspex.Editor\Highlighting\HighlightedSection.cs" Line="1" Column="1" />
       <File FileName="Perspex.Editor\Highlighting\HighlightingEngine.cs" Line="1" Column="1" />
-      <File FileName="Perspex.Editor\Search\ISearchStrategy.cs" Line="35" Column="35" />
+      <File FileName="Perspex.Editor\Search\ISearchStrategy.cs" Line="1" Column="1" />
+      <File FileName="Perspex.Editor\TextEditor.cs" Line="6" Column="6" />
+      <File FileName="Perspex.Editor\Search\SearchPanel.cs" Line="4" Column="4" />
+      <File FileName="Perspex.Editor\Utils\TextFormatterFactory.cs" Line="3" Column="3" />
+      <File FileName="Perspex.Editor\Highlighting\HtmlRichTextWriter.cs" Line="17" Column="17" />
+      <File FileName="Perspex.Editor\Highlighting\HtmlOptions.cs" Line="17" Column="17" />
+      <File FileName="Perspex.Editor\Editing\TextArea.cs" Line="3" Column="3" />
+      <File FileName="Perspex.Editor\Highlighting\Xshd\XshdColor.cs" Line="7" Column="7" />
+      <File FileName="Perspex.Editor\Highlighting\HighlightingColor.cs" Line="17" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
