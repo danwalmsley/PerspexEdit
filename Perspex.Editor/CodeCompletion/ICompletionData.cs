@@ -19,11 +19,7 @@
 using System;
 using System.Windows.Media;
 using Perspex.Editor.Editing;
-#if NREFACTORY
-using Perspex.NRefactory.Editor;
-#else
-using ICSharpCode.AvalonEdit.Document;
-#endif
+using Perspex.Editor.Document;
 
 namespace Perspex.Editor.CodeCompletion
 {

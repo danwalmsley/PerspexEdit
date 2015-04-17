@@ -17,11 +17,7 @@
 // DEALINGS IN THE SOFTWARE.
 
 using System;
-#if NREFACTORY
-using Perspex.NRefactory.Editor;
-#else
-using ICSharpCode.AvalonEdit.Document;
-#endif
+using Perspex.Editor.Document;
 
 namespace Perspex.Editor.Editing
 {

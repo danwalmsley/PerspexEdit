@@ -21,13 +21,11 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Text.RegularExpressions;
-#if NREFACTORY
 using Perspex.NRefactory.Editor;
-#else
-using ICSharpCode.AvalonEdit.Document;
-#endif
+
 using Perspex.Editor.Utils;
 using SpanStack = Perspex.Editor.Utils.ImmutableStack<Perspex.Editor.Highlighting.HighlightingSpan>;
+using Perspex.Editor.Document;
 
 namespace Perspex.Editor.Highlighting
 {

@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perspex.Editor", "Perspex.Editor\Perspex.Editor.csproj", "{6C55B776-26D4-4DB3-A6AB-87E783B2F3D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perspex.NRefactory", "Perspex.NRefactory\Perspex.NRefactory.csproj", "{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,38 +89,6 @@ Global
 		{6C55B776-26D4-4DB3-A6AB-87E783B2F3D1}.Release|Net40.Build.0 = Release|Net40
 		{6C55B776-26D4-4DB3-A6AB-87E783B2F3D1}.Release|WithNRefactory.ActiveCfg = Release|WithNRefactory
 		{6C55B776-26D4-4DB3-A6AB-87E783B2F3D1}.Release|WithNRefactory.Build.0 = Release|WithNRefactory
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.Debug|Net35.ActiveCfg = Debug|Any CPU
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.Debug|Net35.Build.0 = Debug|Any CPU
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.Debug|Net40.ActiveCfg = Debug|Any CPU
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.Debug|Net40.Build.0 = Debug|Any CPU
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.Debug|WithNRefactory.ActiveCfg = Debug|Any CPU
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.Debug|WithNRefactory.Build.0 = Debug|Any CPU
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.net_4_5_Debug|Any CPU.ActiveCfg = net_4_5_Debug|Any CPU
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.net_4_5_Debug|Any CPU.Build.0 = net_4_5_Debug|Any CPU
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.net_4_5_Debug|Net35.ActiveCfg = net_4_5_Debug|Any CPU
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.net_4_5_Debug|Net35.Build.0 = net_4_5_Debug|Any CPU
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.net_4_5_Debug|Net40.ActiveCfg = net_4_5_Debug|Any CPU
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.net_4_5_Debug|Net40.Build.0 = net_4_5_Debug|Any CPU
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.net_4_5_Debug|WithNRefactory.ActiveCfg = net_4_5_Debug|Any CPU
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.net_4_5_Debug|WithNRefactory.Build.0 = net_4_5_Debug|Any CPU
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.net_4_5_Release|Any CPU.ActiveCfg = net_4_5_Release|Any CPU
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.net_4_5_Release|Any CPU.Build.0 = net_4_5_Release|Any CPU
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.net_4_5_Release|Net35.ActiveCfg = net_4_5_Release|Any CPU
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.net_4_5_Release|Net35.Build.0 = net_4_5_Release|Any CPU
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.net_4_5_Release|Net40.ActiveCfg = net_4_5_Release|Any CPU
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.net_4_5_Release|Net40.Build.0 = net_4_5_Release|Any CPU
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.net_4_5_Release|WithNRefactory.ActiveCfg = net_4_5_Release|Any CPU
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.net_4_5_Release|WithNRefactory.Build.0 = net_4_5_Release|Any CPU
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.Release|Net35.ActiveCfg = Release|Any CPU
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.Release|Net35.Build.0 = Release|Any CPU
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.Release|Net40.ActiveCfg = Release|Any CPU
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.Release|Net40.Build.0 = Release|Any CPU
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.Release|WithNRefactory.ActiveCfg = Release|Any CPU
-		{3B2A5653-EC97-4001-BB9B-D90F1AF2C371}.Release|WithNRefactory.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

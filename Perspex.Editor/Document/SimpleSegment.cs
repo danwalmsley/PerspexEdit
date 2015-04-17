@@ -20,9 +20,7 @@ using System;
 using System.Diagnostics;
 using System.Globalization;
 using Perspex.Editor.Utils;
-#if NREFACTORY
-using Perspex.NRefactory.Editor;
-#endif
+
 
 namespace Perspex.Editor.Document
 {
