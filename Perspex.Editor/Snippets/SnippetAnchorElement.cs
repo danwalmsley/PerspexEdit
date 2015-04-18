@@ -16,16 +16,14 @@
 // OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 // DEALINGS IN THE SOFTWARE.
 
-using System;
 using Perspex.Editor.Document;
-using Perspex.NRefactory.Editor;
 
 namespace Perspex.Editor.Snippets
 {
-	/// <summary>
-	/// Creates a named anchor that can be accessed by other SnippetElements.
-	/// </summary>
-	public sealed class SnippetAnchorElement : SnippetElement
+    /// <summary>
+    /// Creates a named anchor that can be accessed by other SnippetElements.
+    /// </summary>
+    public sealed class SnippetAnchorElement : SnippetElement
 	{
 		/// <summary>
 		/// Gets or sets the name of the anchor.

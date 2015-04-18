@@ -23,17 +23,16 @@ using System.Windows;
 using System.Windows.Controls.Primitives;
 using System.Windows.Media;
 using System.Windows.Media.TextFormatting;
-using Perspex.NRefactory.Editor;
 using Perspex.Editor.Document;
 using Perspex.Editor.Editing;
 using Perspex.Editor.Utils;
 
 namespace Perspex.Editor.Rendering
 {
-	/// <summary>
-	/// Helper for creating a PathGeometry.
-	/// </summary>
-	public sealed class BackgroundGeometryBuilder
+    /// <summary>
+    /// Helper for creating a PathGeometry.
+    /// </summary>
+    public sealed class BackgroundGeometryBuilder
 	{
 		double cornerRadius;
 		

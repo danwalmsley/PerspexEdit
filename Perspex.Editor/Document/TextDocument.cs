@@ -25,20 +25,18 @@ using System.Diagnostics;
 using System.Globalization;
 using System.Threading;
 using Perspex.Editor.Utils;
-using Perspex.NRefactory;
-using Perspex.NRefactory.Editor;
 
 namespace Perspex.Editor.Document
 {
-	/// <summary>
-	/// This class is the main class of the text model. Basically, it is a <see cref="System.Text.StringBuilder"/> with events.
-	/// </summary>
-	/// <remarks>
-	/// <b>Thread safety:</b>
-	/// <inheritdoc cref="VerifyAccess"/>
-	/// <para>However, there is a single method that is thread-safe: <see cref="CreateSnapshot()"/> (and its overloads).</para>
-	/// </remarks>
-	public sealed class TextDocument : IDocument, INotifyPropertyChanged
+    /// <summary>
+    /// This class is the main class of the text model. Basically, it is a <see cref="System.Text.StringBuilder"/> with events.
+    /// </summary>
+    /// <remarks>
+    /// <b>Thread safety:</b>
+    /// <inheritdoc cref="VerifyAccess"/>
+    /// <para>However, there is a single method that is thread-safe: <see cref="CreateSnapshot()"/> (and its overloads).</para>
+    /// </remarks>
+    public sealed class TextDocument : IDocument, INotifyPropertyChanged
 	{
 		#region Thread ownership
 		readonly object lockObject = new object();

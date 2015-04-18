@@ -33,7 +33,13 @@ namespace Prototype
                 {
                    Document = new TextDocument(sr.ReadToEnd());
                 }
-            }            
+            }
+
+            var vm = new MainViewModel();
+            vm.Document = Document;
+
+            this.DataContext = vm;
+                   
         }
     }
 }

@@ -4,9 +4,12 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Prototype"
+        xmlns:perspexeditor="clr-namespace:Perspex.Editor;assembly=Perspex.Editor"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <perspexeditor:TextEditor>
+            
+        </perspexeditor:TextEditor>
     </Grid>
 </Window>

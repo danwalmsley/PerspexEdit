@@ -16,19 +16,18 @@
 // OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 // DEALINGS IN THE SOFTWARE.
 
+using Perspex.Editor.Document;
+using Perspex.Editor.Utils;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Perspex.Editor.Document;
-using Perspex.NRefactory.Editor;
-using Perspex.Editor.Utils;
 
 namespace Perspex.Editor.Editing
 {
-	/// <summary>
-	/// <see cref="IReadOnlySectionProvider"/> that has no read-only sections; all text is editable.
-	/// </summary>
-	sealed class NoReadOnlySections : IReadOnlySectionProvider
+    /// <summary>
+    /// <see cref="IReadOnlySectionProvider"/> that has no read-only sections; all text is editable.
+    /// </summary>
+    sealed class NoReadOnlySections : IReadOnlySectionProvider
 	{
 		public static readonly NoReadOnlySections Instance = new NoReadOnlySections();
 		

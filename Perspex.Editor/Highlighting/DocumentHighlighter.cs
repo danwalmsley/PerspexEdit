@@ -20,18 +20,17 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using Perspex.NRefactory.Editor;
 using Perspex.Editor.Document;
 using Perspex.Editor.Utils;
 using SpanStack = Perspex.Editor.Utils.ImmutableStack<Perspex.Editor.Highlighting.HighlightingSpan>;
 
 namespace Perspex.Editor.Highlighting
 {
-	/// <summary>
-	/// This class can syntax-highlight a document.
-	/// It automatically manages invalidating the highlighting when the document changes.
-	/// </summary>
-	public class DocumentHighlighter : ILineTracker, IHighlighter
+    /// <summary>
+    /// This class can syntax-highlight a document.
+    /// It automatically manages invalidating the highlighting when the document changes.
+    /// </summary>
+    public class DocumentHighlighter : ILineTracker, IHighlighter
 	{
 		/// <summary>
 		/// Stores the span state at the end of each line.

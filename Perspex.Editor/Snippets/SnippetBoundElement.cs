@@ -19,14 +19,13 @@
 using System;
 using System.Windows.Documents;
 using Perspex.Editor.Document;
-using Perspex.NRefactory.Editor;
 
 namespace Perspex.Editor.Snippets
 {
-	/// <summary>
-	/// An element that binds to a <see cref="SnippetReplaceableTextElement"/> and displays the same text.
-	/// </summary>
-	[Serializable]
+    /// <summary>
+    /// An element that binds to a <see cref="SnippetReplaceableTextElement"/> and displays the same text.
+    /// </summary>
+    [Serializable]
 	public class SnippetBoundElement : SnippetElement
 	{
 		SnippetReplaceableTextElement targetElement;

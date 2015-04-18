@@ -23,14 +23,13 @@ using System.IO;
 using System.Linq;
 using Perspex.Editor.Document;
 using Perspex.Editor.Utils;
-using Perspex.NRefactory.Editor;
 
 namespace Perspex.Editor.Highlighting
 {
-	/// <summary>
-	/// Represents a highlighted document line.
-	/// </summary>
-	public class HighlightedLine
+    /// <summary>
+    /// Represents a highlighted document line.
+    /// </summary>
+    public class HighlightedLine
 	{
 		/// <summary>
 		/// Creates a new HighlightedLine instance.

@@ -2,11 +2,11 @@
 	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 	xmlns:editing="clr-namespace:Perspex.Editor.Editing">
 	<ResourceDictionary.MergedDictionaries>
-		<ResourceDictionary Source="/ICSharpCode.AvalonEdit;component/TextEditor.xaml" />
-		<ResourceDictionary Source="/ICSharpCode.AvalonEdit;component/Search/DropDownButton.xaml" />
-		<ResourceDictionary Source="/ICSharpCode.AvalonEdit;component/Search/SearchPanel.xaml" />
-		<ResourceDictionary Source="/ICSharpCode.AvalonEdit;component/CodeCompletion/CompletionList.xaml" />
-		<ResourceDictionary Source="/ICSharpCode.AvalonEdit;component/CodeCompletion/InsightWindow.xaml" />
+		<ResourceDictionary Source="/Perspex.Editor;component/TextEditor.xaml" />
+        <ResourceDictionary Source="/Perspex.Editor;component/Search/DropDownButton.xaml" />
+        <ResourceDictionary Source="/Perspex.Editor;component/Search/SearchPanel.xaml" />
+        <ResourceDictionary Source="/Perspex.Editor;component/CodeCompletion/CompletionList.xaml" />
+        <ResourceDictionary Source="/Perspex.Editor;component/CodeCompletion/InsightWindow.xaml" />
 	</ResourceDictionary.MergedDictionaries>
 	
 	<Style TargetType="{x:Type editing:LineNumberMargin}">

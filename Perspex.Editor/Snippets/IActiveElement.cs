@@ -16,16 +16,14 @@
 // OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 // DEALINGS IN THE SOFTWARE.
 
-using System;
-using Perspex.NRefactory.Editor;
 using Perspex.Editor.Document;
 
 namespace Perspex.Editor.Snippets
 {
-	/// <summary>
-	/// Represents an active element that allows the snippet to stay interactive after insertion.
-	/// </summary>
-	public interface IActiveElement
+    /// <summary>
+    /// Represents an active element that allows the snippet to stay interactive after insertion.
+    /// </summary>
+    public interface IActiveElement
 	{
 		/// <summary>
 		/// Called when the all snippet elements have been inserted.

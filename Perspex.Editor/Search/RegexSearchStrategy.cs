@@ -19,15 +19,13 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
 using System.Windows.Documents;
 using Perspex.Editor.Document;
-using Perspex.NRefactory.Editor;
 
 namespace Perspex.Editor.Search
 {
-	class RegexSearchStrategy : ISearchStrategy
+    class RegexSearchStrategy : ISearchStrategy
 	{
 		readonly Regex searchPattern;
 		readonly bool matchWholeWords;

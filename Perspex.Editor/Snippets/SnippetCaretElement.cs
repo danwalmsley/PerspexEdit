@@ -18,15 +18,14 @@
 
 using System;
 using System.Runtime.Serialization;
-using Perspex.NRefactory.Editor;
 using Perspex.Editor.Document;
 
 namespace Perspex.Editor.Snippets
 {
-	/// <summary>
-	/// Sets the caret position after interactive mode has finished.
-	/// </summary>
-	[Serializable]
+    /// <summary>
+    /// Sets the caret position after interactive mode has finished.
+    /// </summary>
+    [Serializable]
 	public class SnippetCaretElement : SnippetElement
 	{
 		[OptionalField]

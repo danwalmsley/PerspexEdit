@@ -33,15 +33,13 @@ using Perspex.Editor.Document;
 using Perspex.Editor.Indentation;
 using Perspex.Editor.Rendering;
 using Perspex.Editor.Utils;
-using Perspex.NRefactory;
-using Perspex.NRefactory.Editor;
 
 namespace Perspex.Editor.Editing
 {
-	/// <summary>
-	/// Control that wraps a TextView and adds support for user input and the caret.
-	/// </summary>
-	public class TextArea : Control, IScrollInfo, IWeakEventListener, ITextEditorComponent, IServiceProvider
+    /// <summary>
+    /// Control that wraps a TextView and adds support for user input and the caret.
+    /// </summary>
+    public class TextArea : Control, IScrollInfo, IWeakEventListener, ITextEditorComponent, IServiceProvider
 	{
 		internal readonly ImeSupport ime;
 		

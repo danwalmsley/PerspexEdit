@@ -28,14 +28,13 @@ using Perspex.Editor.Document;
 using Perspex.Editor.Editing;
 using Perspex.Editor.Rendering;
 using Perspex.Editor.Utils;
-using Perspex.NRefactory.Editor;
 
 namespace Perspex.Editor.CodeCompletion
 {
-	/// <summary>
-	/// Base class for completion windows. Handles positioning the window at the caret.
-	/// </summary>
-	public class CompletionWindowBase : Window
+    /// <summary>
+    /// Base class for completion windows. Handles positioning the window at the caret.
+    /// </summary>
+    public class CompletionWindowBase : Window
 	{
 		static CompletionWindowBase()
 		{

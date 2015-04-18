@@ -21,7 +21,6 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Text.RegularExpressions;
-using Perspex.NRefactory.Editor;
 
 using Perspex.Editor.Utils;
 using SpanStack = Perspex.Editor.Utils.ImmutableStack<Perspex.Editor.Highlighting.HighlightingSpan>;
@@ -29,10 +28,10 @@ using Perspex.Editor.Document;
 
 namespace Perspex.Editor.Highlighting
 {
-	/// <summary>
-	/// Regex-based highlighting engine.
-	/// </summary>
-	public class HighlightingEngine
+    /// <summary>
+    /// Regex-based highlighting engine.
+    /// </summary>
+    public class HighlightingEngine
 	{
 		readonly HighlightingRuleSet mainRuleSet;
 		SpanStack spanStack = SpanStack.Empty;

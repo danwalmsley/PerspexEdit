@@ -17,16 +17,14 @@
 // DEALINGS IN THE SOFTWARE.
 
 using System;
-using Perspex.Editor.Document;
-using Perspex.NRefactory.Editor;
 
 namespace Perspex.Editor.Document
 {
-	/// <summary>
-	/// Describes a change of the document text.
-	/// This class is thread-safe.
-	/// </summary>
-	[Serializable]
+    /// <summary>
+    /// Describes a change of the document text.
+    /// This class is thread-safe.
+    /// </summary>
+    [Serializable]
 	public class DocumentChangeEventArgs : TextChangeEventArgs
 	{
 		volatile OffsetChangeMap offsetChangeMap;

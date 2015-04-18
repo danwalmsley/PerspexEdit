@@ -22,14 +22,13 @@ using System.Globalization;
 using System.Text;
 using System.Windows;
 using Perspex.Editor.Document;
-using Perspex.NRefactory.Editor;
 
 namespace Perspex.Editor.Highlighting
 {
-	/// <summary>
-	/// Allows copying HTML text to the clipboard.
-	/// </summary>
-	public static class HtmlClipboard
+    /// <summary>
+    /// Allows copying HTML text to the clipboard.
+    /// </summary>
+    public static class HtmlClipboard
 	{
 		/// <summary>
 		/// Builds a header for the CF_HTML clipboard format.

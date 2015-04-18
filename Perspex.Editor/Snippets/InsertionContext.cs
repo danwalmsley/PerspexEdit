@@ -19,16 +19,15 @@
 using System;
 using System.Collections.Generic;
 using System.Windows;
-using Perspex.NRefactory.Editor;
 using Perspex.Editor.Document;
 using Perspex.Editor.Editing;
 
 namespace Perspex.Editor.Snippets
 {
-	/// <summary>
-	/// Represents the context of a snippet insertion.
-	/// </summary>
-	public class InsertionContext : IWeakEventListener
+    /// <summary>
+    /// Represents the context of a snippet insertion.
+    /// </summary>
+    public class InsertionContext : IWeakEventListener
 	{
 		enum Status
 		{

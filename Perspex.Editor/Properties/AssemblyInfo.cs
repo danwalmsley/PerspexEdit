@@ -31,15 +31,13 @@ using System.Windows.Markup;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ICSharpCode.AvalonEdit")]
-[assembly: AssemblyDescription("WPF-based extensible text editor")]
+[assembly: AssemblyTitle("Perspex.Editor")]
+[assembly: AssemblyDescription("Perspex-based extensible text editor")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 [assembly: CLSCompliant(true)]
-
-[assembly:InternalsVisibleTo("ICSharpCode.AvalonEdit.Tests, PublicKey=0024000004800000940000000602000000240000525341310004000001000100F1844BC8CBDC3779B0E5970A30D800668414128135F5D6CD274E726F7C84FBDBF74AD1AD0D9FBA9C0A6CC64C11D0F6A9EDBBE7B32B6F19D8F734E1C130814D40DF54FF9D063CE29BF7AF86B46A69F0E2B910991B52A2AE443648E199A09547E74663CBE1E72E89365034FF53B6A3CE281415CBE7E2DFB5E40E54667F35DC04CA")]
 
 [assembly: ThemeInfo(
 	ResourceDictionaryLocation.None, //where theme specific resource dictionaries are located
@@ -51,21 +49,12 @@ using System.Windows.Markup;
 )]
 
 [assembly: System.Runtime.InteropServices.ComVisible(false)]
-[assembly: AssemblyCompany("ic#code")]
-[assembly: AssemblyProduct("SharpDevelop")]
-[assembly: AssemblyCopyright("2000-2014 AlphaSierraPapa for the SharpDevelop Team")]
-[assembly: AssemblyVersion("5.0.1")]
+[assembly: AssemblyCompany("Perspex")]
+[assembly: AssemblyProduct("VitalElement Studio")]
+[assembly: AssemblyCopyright("2000-2014 AlphaSierraPapa for the SharpDevelop Team 2015 - Perspex Team")]
+[assembly: AssemblyVersion("1.0.0")]
 [assembly: NeutralResourcesLanguage("en-US")]
 
-[assembly: XmlnsPrefix("http://icsharpcode.net/sharpdevelop/avalonedit", "avalonedit")]
-
-[assembly: XmlnsDefinition("http://icsharpcode.net/sharpdevelop/avalonedit", "ICSharpCode.AvalonEdit")]
-[assembly: XmlnsDefinition("http://icsharpcode.net/sharpdevelop/avalonedit", "ICSharpCode.AvalonEdit.Editing")]
-[assembly: XmlnsDefinition("http://icsharpcode.net/sharpdevelop/avalonedit", "ICSharpCode.AvalonEdit.Rendering")]
-[assembly: XmlnsDefinition("http://icsharpcode.net/sharpdevelop/avalonedit", "ICSharpCode.AvalonEdit.Highlighting")]
-[assembly: XmlnsDefinition("http://icsharpcode.net/sharpdevelop/avalonedit", "ICSharpCode.AvalonEdit.Search")]
 
 [assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2243:AttributeStringLiteralsShouldParseCorrectly",
 	Justification = "AssemblyInformationalVersion does not need to be a parsable version")]
-
-namespace Perspex.NRefactory.Editor {}

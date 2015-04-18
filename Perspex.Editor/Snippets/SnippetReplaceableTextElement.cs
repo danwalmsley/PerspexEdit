@@ -21,17 +21,16 @@ using System.Linq;
 using System.Windows;
 using System.Windows.Documents;
 using System.Windows.Media;
-using Perspex.NRefactory.Editor;
 using Perspex.Editor.Document;
 using Perspex.Editor.Rendering;
 
 namespace Perspex.Editor.Snippets
 {
-	/// <summary>
-	/// Text element that is supposed to be replaced by the user.
-	/// Will register an <see cref="IReplaceableActiveElement"/>.
-	/// </summary>
-	[Serializable]
+    /// <summary>
+    /// Text element that is supposed to be replaced by the user.
+    /// Will register an <see cref="IReplaceableActiveElement"/>.
+    /// </summary>
+    [Serializable]
 	public class SnippetReplaceableTextElement : SnippetTextElement
 	{
 		/// <inheritdoc/>

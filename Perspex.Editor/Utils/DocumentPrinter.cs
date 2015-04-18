@@ -20,17 +20,15 @@ using System;
 using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Documents;
-
-using Perspex.NRefactory.Editor;
 using Perspex.Editor.Document;
 using Perspex.Editor.Highlighting;
 
 namespace Perspex.Editor.Utils
 {
-	/// <summary>
-	/// Helps printing documents.
-	/// </summary>
-	public static class DocumentPrinter
+    /// <summary>
+    /// Helps printing documents.
+    /// </summary>
+    public static class DocumentPrinter
 	{
 		#if NREFACTORY
 		/// <summary>

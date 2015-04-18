@@ -16,18 +16,16 @@
 // OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 // DEALINGS IN THE SOFTWARE.
 
-using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using Perspex.NRefactory.Editor;
 
 namespace Perspex.Editor.Document
 {
-	/// <summary>
-	/// Creates/Deletes lines when text is inserted/removed.
-	/// </summary>
-	sealed class LineManager
+    /// <summary>
+    /// Creates/Deletes lines when text is inserted/removed.
+    /// </summary>
+    sealed class LineManager
 	{
 		#region Constructor
 		readonly TextDocument document;
