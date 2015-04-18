@@ -55,6 +55,14 @@ using System.Windows.Markup;
 [assembly: AssemblyVersion("1.0.0")]
 [assembly: NeutralResourcesLanguage("en-US")]
 
+[assembly: XmlnsPrefix("http://perspex.net/editor", "perspexedit")]
+
+[assembly: XmlnsDefinition("http://perspex.net/editor", "Perspex.Editor")]
+[assembly: XmlnsDefinition("http://perspex.net/editor", "Perspex.Editor.Editing")]
+[assembly: XmlnsDefinition("http://perspex.net/editor", "Perspex.Editor.Rendering")]
+[assembly: XmlnsDefinition("http://perspex.net/editor", "Perspex.Editor.Highlighting")]
+[assembly: XmlnsDefinition("http://perspex.net/editor", "Perspex.Editor.Search")]
+
 
 [assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2243:AttributeStringLiteralsShouldParseCorrectly",
 	Justification = "AssemblyInformationalVersion does not need to be a parsable version")]
